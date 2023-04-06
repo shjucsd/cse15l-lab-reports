@@ -3,6 +3,8 @@
 # UCSD
 ## Revelle College
 [Link](https://www.google.com/)
+
+
 ![Image](wic.jpg)
 > Courses I am taking
 * CSE12
