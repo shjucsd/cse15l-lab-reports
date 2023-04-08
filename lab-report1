@@ -7,3 +7,6 @@ operating system. I used the option for Windows operating system.
 * After the .exe file is downloaded, we need to execute it which opens the Installation Wizard for VScode. I generally clicked 'Next' for all the steps and finished the setup.
 * Now you can open the VScode application. It should look similar to the following image.
 
+![Image](vscode main window.jpg)
+
+2. Remotely Connecting
