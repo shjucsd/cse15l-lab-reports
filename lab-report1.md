@@ -1,4 +1,4 @@
-#Steps to login to CSE15L specific account
+# Steps to login to CSE15L specific account
 
 * Installing VScode
 1. I had already installed VS code on my device during CSE8B last quarter. I went to the Visual Studio Code website [Link](https://code.visualstudio.com/) 
