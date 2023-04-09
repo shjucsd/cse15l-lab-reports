@@ -1,6 +1,6 @@
 # Lab Report 1 - Remote Access and FileSystem
 
-* Installing VScode
+* ## Installing VScode
 1. I had already installed VS code on my device during CSE8B last quarter. I went to the Visual Studio Code website [Link](https://code.visualstudio.com/) 
 2. On the website, I clicked on the **Download** option on the top of the page. From there, you will have different options to install VScode depending on your operating system. I used the option for Windows operating system.
 3. After the .exe file is downloaded, we need to execute it which opens the Installation Wizard for VScode. I generally clicked 'Next' for all the steps and finished the setup.
@@ -9,7 +9,7 @@
 ![Image](vscode main window.jpg)
 
 ---
-* Remotely Connecting
+* ## Remotely Connecting
 1. If you are a Windows user, you would have to install Git using [Git for Windows](https://gitforwindows.org/)
 2. After clicking the download option, a .exe file will start downloading which when opened will setup Git on your system. 
 3. The Git software will be used for opening the bash terminal in VScode. I followed the steps given on this website [Using Git on Windows](https://stackoverflow.com/a/50527994)
@@ -21,7 +21,8 @@
 ![Image](remconnect.jpg)
 
 ---
-* Running different commands
+* ## Running different commands
+
 Here are some of the commands along with their outputs I ran on my system while being remotely connected to the server.
 ![Image](res1.png)
 ![Image](res2.png)
