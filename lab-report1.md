@@ -1,4 +1,4 @@
-# Steps to login to CSE15L specific account
+# Lab Report 1 - Remote Access and FileSystem
 
 * Installing VScode
 1. I had already installed VS code on my device during CSE8B last quarter. I went to the Visual Studio Code website [Link](https://code.visualstudio.com/) 
@@ -19,3 +19,9 @@
 8. After the connection is finally established, the output should be something like this: ![Image](remconnect.jpg)
 
 * Running different commands
+Here are some of the commands along with their outputs I ran on my system while being remotely connected to the server.
+![Image](res1.png)
+
+![Image](res2.png)
+
+![Image](res3.png)
