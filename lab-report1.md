@@ -17,7 +17,8 @@
 5. Then use the command `ssh cs15lsp23xx@ieng6.ucsd.edu` The xx represents the two unique characters at the end of student specific CSE15L account.
 6. After the command is executed, the terminal asks that whether we are sure we want to connect. I answered yes so that the connection could proceed
 7. Next, you have to enter your password. The password would not be displayed while typing even in the form of asterisk/dot so it may seem that you are not typing anything but in reality it is collecting the input. If you had changed your account password quite recently, there is a chance that it has not been updated yet. I had to wait around 20 minutes for my password to be accepted by the terminal in order to proceed.
-8. After the connection is finally established, the output should be something like this: ![Image](remconnect.jpg)
+8. After the connection is finally established, the output should be something like this: 
+![Image](remconnect.jpg)
 ---
 * Running different commands
 Here are some of the commands along with their outputs I ran on my system while being remotely connected to the server.
