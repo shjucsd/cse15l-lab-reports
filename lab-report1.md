@@ -19,6 +19,7 @@
 7. Next, you have to enter your password. The password would not be displayed while typing even in the form of asterisk/dot so it may seem that you are not typing anything but in reality it is collecting the input. If you had changed your account password quite recently, there is a chance that it has not been updated yet. I had to wait around 20 minutes for my password to be accepted by the terminal in order to proceed.
 8. After the connection is finally established, the output should be something like this: 
 ![Image](remconnect.jpg)
+
 ---
 * Running different commands
 Here are some of the commands along with their outputs I ran on my system while being remotely connected to the server.
