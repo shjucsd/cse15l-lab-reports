@@ -28,7 +28,7 @@ Here are some of the commands along with their outputs I ran on my system while 
 ![Image](res2.png)
 ![Image](res3.png)
 1. `cd` - change directory - Since it is passed with no argument, it changes the directory to home directory which is where I am already at. Similary `cd ~` also goes to the home directory.
-2. `ls -lat` displays the files which were modified most recently
+2. `ls -lat` displays all the files based on which were modified most recently
 3. `ls -a` displays the names of the files which have **.** in their extension
 4. `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/` represents we are trying to copy a file to a new source but since the file doesn't exist at present it shows that no direcrory/file found.
 5. Similarly, for `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`as well, since no file by hello.txt exists, the terminal displays that file is not found.
