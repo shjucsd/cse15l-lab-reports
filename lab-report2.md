@@ -11,5 +11,6 @@
 
 **Output 2**
 
-![Image](O2.jpg)
+![Image](o2.jpg)
 
+1. ImThe both the case, I did 
