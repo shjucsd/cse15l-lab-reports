@@ -2,15 +2,15 @@
 
 * ## Part 1 - StringServer
 
-    * **Code**
+**Code**
 
 ![Image](stringserver.jpg)
 
-    * **Output 1**
+**Output 1**
 
 ![Image](o1.jpg)
 
-    * **Output 2**
+**Output 2**
 
 ![Image](o2.jpg)
 
