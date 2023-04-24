@@ -21,11 +21,13 @@ I have chosen the **reverseIn Place** method from ArrayExamples.
 1. Failure-induicing input
 ```int[] input2 = {1, 2, 3};
     ArrayExamples.reverseInPlace(input2);
-    assertArrayEquals(new int[] {3,2,1}, input2);```
+    assertArrayEquals(new int[] {3,2,1}, input2);
+```
 2. Non-Failure inducing input
 ```int[] input1 = {3, 3, 3};
     ArrayExamples.reverseInPlace(input1);
-    assertArrayEquals(new int[]{3, 3, 3}, input1);```
+    assertArrayEquals(new int[]{3, 3, 3}, input1);
+```
 3. Output of the tests
 ![Image](testfail.jpg)
 4. Code before fixing
@@ -33,7 +35,8 @@ I have chosen the **reverseIn Place** method from ArrayExamples.
     for(int i = 0; i < arr.length; i += 1) {
       arr[i] = arr[arr.length - i - 1];
     }
-  }```
+  }
+```
 5. Code after fixing
 ```static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length/2; i += 1) {
@@ -41,7 +44,8 @@ I have chosen the **reverseIn Place** method from ArrayExamples.
       arr[i] = arr[arr.length - i - 1];
       arr[arr.length - i - 1] = temp;
     }
- }```
+ }
+```
 
 * The code before being fixed, it was swapping the elements starting from the first index till the last one for the whole length if the array due to which it was basically reversing the swap it did in the first half. Hence, it shows a failure for an array with different elements but for an array with same elements, it does not since the reverse of an array with identical elements would be same as well.
 * The above code fixes the issue becuase it only goes through with the swapping for the first half of the list which produces the desired result. 
