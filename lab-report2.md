@@ -2,15 +2,15 @@
 
 * ## Part 1 - StringServer
 
-**Code**
+    * **Code**
 
 ![Image](stringserver.jpg)
 
-**Output 1**
+    * **Output 1**
 
 ![Image](o1.jpg)
 
-**Output 2**
+    * **Output 2**
 
 ![Image](o2.jpg)
 
@@ -63,7 +63,7 @@ static void reverseInPlace(int[] arr) {
 
 ---
 
-* ## Part 3 
+* ## Part 3 - Reflection
 There were a lot of things I learned in weeks 2 and 3. Some of them are:
     * Using the Server.java, to create our own servers and playing with the paths and getting a glmipse of how the webpages would work in real world. 
     * I had not used Github before this course, so learning more about Git and Github Desktop is interesting and new.
