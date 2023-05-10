@@ -4,7 +4,7 @@
 
 ## 1. `grep -i`
 
-* Example 1
+* **Example 1**
 ```
 $ grep -i "evidence" technical/biomed/ar68.txt
 ```
@@ -12,7 +12,7 @@ $ grep -i "evidence" technical/biomed/ar68.txt
        Evidence in support of T-cell involvement in rheumatoid
           evidence for cellular activation (either selective or
 ```
-* Example 2
+* **Example 2**
 ```
 $ grep -i "MacRo" technical/biomed/ar79.txt
 ```
@@ -27,7 +27,7 @@ $ grep -i "MacRo" technical/biomed/ar79.txt
 
 ## 2. `grep -w`
 
-* Example 1 
+* **Example 1** 
 ```
 $ grep -w "population" technical/biomed/ar140.txt
 ```
@@ -41,7 +41,7 @@ $ grep -w "population" technical/biomed/ar140.txt
         synovial tissue T cells are a mixed population of recently
 ```
 
-* Example 2
+* **Example 2**
 
 ```
 $ grep -w "mono" technical/biomed/rr74.txt
@@ -57,7 +57,7 @@ $ grep -w "mono" technical/biomed/rr74.txt
 
 ## 3. `grep -v`
 
-* Example 1 
+* **Example 1** 
 ```
 $ grep -v "a" technical/government/Media/Farm_workers.txt
 ```
@@ -82,7 +82,7 @@ EPA toxicologist in Denver.
 
 ```
 
-* Example 2
+* **Example 2**
 
 ```
 $ grep -v "e" technical/government/Env_Prot_Agen/final.txt
@@ -153,7 +153,7 @@ this industry.
 
 ## 4. `grep -c`
 
-* Example 1
+* **Example 1**
 ```
 $ grep -c "we" technical/911report/preface.txt
 ```
@@ -161,7 +161,7 @@ $ grep -c "we" technical/911report/preface.txt
 29
 ```
 
-* Example 2 
+* **Example 2** 
 
 ```
 $ grep -c "in" technical/plos/pmed.0020088.txt
@@ -171,3 +171,10 @@ $ grep -c "in" technical/plos/pmed.0020088.txt
 ```
 
 `grep -c` option returns the count of the lines which contain the specified pattern. This option can be useful in cases we just want to check how many lines contain that pattern. Hence, this provides a good alternative of `wc` command where we first need to redirect the output of `grep` into another file. Using this option, we can directly print out the count of lines.
+
+---
+
+## References
+
+* https://en.wikibooks.org/wiki/Grep#:~:text=Command-line%20options%20aka%20switches%20of%20GNU%20grep%2C%20beyond,num%2C%20--after-context%3Dnum%208%20-B%20num%2C%20--before-context%3Dnum%20More%20items
+* ChatGPT prompt : command line options with grep command
