@@ -5,6 +5,7 @@
 ## 1. `grep -i`
 
 * **Example 1**
+
 ```
 $ grep -i "evidence" technical/biomed/ar68.txt
 ```
@@ -28,6 +29,7 @@ $ grep -i "MacRo" technical/biomed/ar79.txt
 ## 2. `grep -w`
 
 * **Example 1** 
+
 ```
 $ grep -w "population" technical/biomed/ar140.txt
 ```
