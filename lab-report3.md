@@ -14,6 +14,7 @@ $ grep -i "evidence" technical/biomed/ar68.txt
           evidence for cellular activation (either selective or
 ```
 * **Example 2**
+
 ```
 $ grep -i "MacRo" technical/biomed/ar79.txt
 ```
