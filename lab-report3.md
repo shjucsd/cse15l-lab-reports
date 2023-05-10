@@ -59,7 +59,7 @@ $ grep -w "mono" technical/biomed/rr74.txt
 
 * **Example 1** 
 
-     $ grep -v "a" technical/government/Media/Farm_workers.txt
+      $ grep -v "a" technical/government/Media/Farm_workers.txt
 
 ```
 
