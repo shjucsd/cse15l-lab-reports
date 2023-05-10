@@ -87,6 +87,7 @@ EPA toxicologist in Denver.
 ```
 $ grep -v "e" technical/government/Env_Prot_Agen/final.txt
 ```
+
 ```
 
 
@@ -157,6 +158,7 @@ this industry.
 ```
 $ grep -c "we" technical/911report/preface.txt
 ```
+
 ```
 29
 ```
@@ -176,5 +178,5 @@ $ grep -c "in" technical/plos/pmed.0020088.txt
 
 ## References
 
-* https://en.wikibooks.org/wiki/Grep#:~:text=Command-line%20options%20aka%20switches%20of%20GNU%20grep%2C%20beyond,num%2C%20--after-context%3Dnum%208%20-B%20num%2C%20--before-context%3Dnum%20More%20items
+* en.wikibooks.org/wiki/Grep 
 * ChatGPT prompt : command line options with grep command
