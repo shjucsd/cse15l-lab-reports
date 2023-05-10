@@ -156,7 +156,7 @@ this industry.
 
 * **Example 1**
 
-```$ grep -c "we" technical/911report/preface.txt```
+       $ grep -c "we" technical/911report/preface.txt
 
 
 ```
@@ -165,8 +165,7 @@ this industry.
 
 * **Example 2** 
 
-
-```$ grep -c "in" technical/plos/pmed.0020088.txt```
+       $ grep -c "in" technical/plos/pmed.0020088.txt
 
 ```
 58
