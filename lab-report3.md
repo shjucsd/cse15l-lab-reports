@@ -40,7 +40,9 @@ $ grep -w "population" technical/biomed/ar140.txt
         the initial memory cell population. Recent studies [ 32]
         synovial tissue T cells are a mixed population of recently
 ```
+
 * Example 2
+
 ```
 $ grep -w "mono" technical/biomed/rr74.txt
 ```
@@ -79,7 +81,9 @@ EPA toxicologist in Denver.
 
 
 ```
+
 * Example 2
+
 ```
 $ grep -v "e" technical/government/Env_Prot_Agen/final.txt
 ```
@@ -156,7 +160,9 @@ $ grep -c "we" technical/911report/preface.txt
 ```
 29
 ```
+
 * Example 2 
+
 ```
 $ grep -c "in" technical/plos/pmed.0020088.txt
 ```
