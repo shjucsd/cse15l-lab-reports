@@ -59,9 +59,8 @@ $ grep -w "mono" technical/biomed/rr74.txt
 
 * **Example 1** 
 
-     $ grep -v "a" technical/government/Media/Farm_workers.txt
-
 ```
+$ grep -v "a" technical/government/Media/Farm_workers.txt
 
 
 
@@ -84,11 +83,8 @@ EPA toxicologist in Denver.
 
 * **Example 2**
 
-
-     $ grep -v "e" technical/government/Env_Prot_Agen/final.txt
-
-
 ```
+$ grep -v "e" technical/government/Env_Prot_Agen/final.txt
 
 
 
@@ -156,18 +152,15 @@ this industry.
 
 * **Example 1**
 
-    $ grep -c "we" technical/911report/preface.txt
-
-
 ```
+$ grep -c "we" technical/911report/preface.txt
 29
 ```
 
 * **Example 2** 
 
-    $ grep -c "in" technical/plos/pmed.0020088.txt
-
 ```
+$ grep -c "in" technical/plos/pmed.0020088.txt
 58
 ```
 
