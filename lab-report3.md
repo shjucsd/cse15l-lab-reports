@@ -61,7 +61,9 @@ $ grep -w "mono" technical/biomed/rr74.txt
 
 ```
 $ grep -v "a" technical/government/Media/Farm_workers.txt
+```
 
+```
 
 
 
@@ -85,7 +87,9 @@ EPA toxicologist in Denver.
 
 ```
 $ grep -v "e" technical/government/Env_Prot_Agen/final.txt
+```
 
+```
 
 
 
