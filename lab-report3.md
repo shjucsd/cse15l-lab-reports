@@ -2,9 +2,9 @@
 
 ## Command Line Options with `grep`
 
-* `grep -i`
+1. `grep -i`
 
-1.
+*
 ```
 $ grep -i "evidence" technical/biomed/ar68.txt
 ```
@@ -12,7 +12,7 @@ $ grep -i "evidence" technical/biomed/ar68.txt
        Evidence in support of T-cell involvement in rheumatoid
           evidence for cellular activation (either selective or
 ```
-2.
+*
 ```
 $ grep -i "MacRo" technical/biomed/ar79.txt
 ```
@@ -21,9 +21,9 @@ $ grep -i "MacRo" technical/biomed/ar79.txt
         macrophages and vascular structures have previously
 ```
 
-* `grep -w`
+2. `grep -w`
 
-1.
+*
 ```
 $ grep -w "population" technical/biomed/ar140.txt
 ```
@@ -36,7 +36,7 @@ $ grep -w "population" technical/biomed/ar140.txt
         the initial memory cell population. Recent studies [ 32]
         synovial tissue T cells are a mixed population of recently
 ```
-2.
+*
 ```
 $ grep -w "mono" technical/biomed/rr74.txt
 ```
@@ -45,9 +45,9 @@ $ grep -w "mono" technical/biomed/rr74.txt
           Golden, CO, USA]; and 1:1500 anti-β-actin mono [Sigma
 ```
 
-* `grep -v`
+3. `grep -v`
 
-1.
+*
 ```
 $ grep -v "a" technical/government/Media/Farm_workers.txt
 ```
@@ -71,7 +71,7 @@ EPA toxicologist in Denver.
 
 
 ```
-2.
+*
 ```
 $ grep -v "e" technical/government/Env_Prot_Agen/final.txt
 ```
@@ -135,16 +135,16 @@ this industry.
 
 ```
 
-* `grep -c`
+4. `grep -c`
 
-1.
+*
 ```
 $ grep -c "we" technical/911report/preface.txt
 ```
 ```
 29
 ```
-2.
+*
 ```
 $ grep -c "in" technical/plos/pmed.0020088.txt
 ```
