@@ -6,21 +6,17 @@
 
 1.
 ```
-//Command
 $ grep -i "evidence" technical/biomed/ar68.txt
 ```
 ```
-//Output
        Evidence in support of T-cell involvement in rheumatoid
           evidence for cellular activation (either selective or
 ```
 2.
 ```
-//Command
 $ grep -i "MacRo" technical/biomed/ar79.txt
 ```
 ```
-//Output
         In the joint, MMP-9 is expressed in macrophages in the
         macrophages and vascular structures have previously
 ```
@@ -29,11 +25,9 @@ $ grep -i "MacRo" technical/biomed/ar79.txt
 
 1.
 ```
-//Command
 $ grep -w "population" technical/biomed/ar140.txt
 ```
 ```
-//Output
         represent an uncommitted precursor population, from which
         the effector population. We have previously demonstrated
         population.
@@ -44,11 +38,9 @@ $ grep -w "population" technical/biomed/ar140.txt
 ```
 2.
 ```
-//Command
 $ grep -w "mono" technical/biomed/rr74.txt
 ```
 ```
-//Output
           for 45 min at 37°C (1:1500 anti-eNOS mono [BD
           Golden, CO, USA]; and 1:1500 anti-β-actin mono [Sigma
 ```
@@ -57,11 +49,9 @@ $ grep -w "mono" technical/biomed/rr74.txt
 
 1.
 ```
-//Command
 $ grep -v "a" technical/government/Media/Farm_workers.txt
 ```
 ```
-//Output
 
 
 
@@ -83,11 +73,9 @@ EPA toxicologist in Denver.
 ```
 2.
 ```
-//Command
 $ grep -v "e" technical/government/Env_Prot_Agen/final.txt
 ```
 ```
-//Output
 
 
 
@@ -148,3 +136,18 @@ this industry.
 ```
 
 * `grep -e`
+
+1.
+```
+$ grep -c "we" technical/911report/preface.txt
+```
+```
+29
+```
+2.
+```
+$ grep -c "in" technical/plos/pmed.0020088.txt
+```
+```
+58
+```
