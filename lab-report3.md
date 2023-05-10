@@ -135,7 +135,7 @@ this industry.
 
 ```
 
-* `grep -e`
+* `grep -c`
 
 1.
 ```
