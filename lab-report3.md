@@ -179,3 +179,23 @@ $ grep -c "in" technical/plos/pmed.0020088.txt
 
 * en.wikibooks.org/wiki/Grep 
 * ChatGPT prompt : command line options with grep command
+* Its output:
+```
+The `grep` command is a powerful tool used to search for patterns in text files. Here are some common command line options that can be used with `grep`:
+
+1. `-i` or `--ignore-case`: This option tells `grep` to ignore case when searching for patterns. For example, if you search for "apple" with `-i` option, it will also match "Apple" and "APPLE".
+
+2. `-v` or `--invert-match`: This option tells `grep` to print lines that do not match the pattern. For example, if you search for "apple" with `-v` option, it will print all lines that do not contain the word "apple".
+
+3. `-w` or `--word-regexp`: This option tells `grep` to search for whole words only. For example, if you search for "cat" with `-w` option, it will only match "cat" and not "catch".
+
+4. `-r` or `--recursive`: This option tells `grep` to search for patterns in all files and directories recursively. For example, if you search for "apple" in a directory with subdirectories using `-r` option, it will search for the pattern in all files in that directory and its subdirectories.
+
+5. `-n` or `--line-number`: This option tells `grep` to print the line number of the matched lines. For example, if you search for "apple" with `-n` option, it will print the line number along with the matched lines.
+
+6. `-c` or `--count`: This option tells `grep` to print the number of times the pattern appears in the file. For example, if you search for "apple" with `-c` option, it will print the number of times the word "apple" appears in the file.
+
+7. `-e` or `--regexp`: This option allows you to specify the pattern to be searched for. For example, if you want to search for "apple" or "orange" in a file, you can use `-e "apple|orange"`.
+
+These are some of the commonly used options with `grep`. For more options, you can check the `grep` manual by typing `man grep` in the terminal.
+```
