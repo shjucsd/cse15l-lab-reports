@@ -1,6 +1,9 @@
-1. Log into ieng6 - I entered the whole command of ssh without copying/pasting it from anywhere: `ssh cs15lsp23cj@ieng6.ucsd.edu` and then pressed <enter>. 
-Since I had created a ssh key for it, I didn't have to type in my password. It directly logged in.
-2. Clone your fork of the repository from your Github account - I copied (Ctrl - C) the link of the fork and pasted (Ctrl - V) into the command line after typing `git clone`
-and then pressed <enter>
-3. 
+1. Log into ieng6 - I entered the whole command of ssh without copying/pasting it from anywhere: `ssh cs15lsp23cj<shift>2ieng6.ucsd.edu` and then pressed <enter>. 
+Since I had created a ssh key for it, I didn't have to type in my password. It directly logged in. Moreover, I had to use <shift>2 for `@` character.
+2. Clone your fork of the repository from your Github account - I copied (Ctrl-C) the link of the fork and pasted (Ctrl-V) into the command line after typing `git clone` and then pressed <enter>.
+3. Run the tests, demonstrating that they fail - I typed `cd<space>l<tab>`. Pressing <tab> after l, autocompleted the path for me to change the directory to lab7. Then I pressed Ctrl-C to copy the `javac` command from previous weeks and Ctrl-V, pasted it into the command line. Then I pressed <enter>. I did the same copy and paste for the `java` command as well but changed the file's name to `ListExamplesTests.java` for which I pressed - L<tab>T<tab> to autocomplete it for me. I had to do <tab> twice since there was a file named ListExamples.java as well in the folder.
+4. Edit the code file to fix the failing test - I pressed `vim<space>Li<tab>.j<tab>` where <tab> helps me in autocompleting the file's name. Then the vim window opens where I scroll to the bottom and type `\index1` which brings the cursor to the index1 in the merge function. Then I press, `lllllxi2<esc><esc>:wq`. This would wove the cursor 5 times to the right, delete the character where the cursor is, insert 2 in its position, escape to normal mode and save and exit the vim window.
+5. Run the tests, demonstrating that they now succeed - I used <up><up><up><enter> since the `javac` command to compile the files again was already in the terminal history. Similarly, <up><up><up><enter> to run the `java1 command on the tests file as well.
+6. Commit and push the resulting change to your Github account - 
+
   
