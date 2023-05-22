@@ -180,7 +180,7 @@ $ grep -c "in" technical/plos/pmed.0020088.txt
 * en.wikibooks.org/wiki/Grep 
 * ChatGPT prompt : command line options with grep command
 * Its output:
-```
+
 The `grep` command is a powerful tool used to search for patterns in text files. Here are some common command line options that can be used with `grep`:
 
 1. `-i` or `--ignore-case`: This option tells `grep` to ignore case when searching for patterns. For example, if you search for "apple" with `-i` option, it will also match "Apple" and "APPLE".
@@ -198,4 +198,4 @@ The `grep` command is a powerful tool used to search for patterns in text files.
 7. `-e` or `--regexp`: This option allows you to specify the pattern to be searched for. For example, if you want to search for "apple" or "orange" in a file, you can use `-e "apple|orange"`.
 
 These are some of the commonly used options with `grep`. For more options, you can check the `grep` manual by typing `man grep` in the terminal.
-```
+
