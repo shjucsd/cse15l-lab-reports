@@ -3,7 +3,7 @@
 ## Baseline:
 * Time taken to do all the tasks - 6 minutes approximately
 1. Log into ieng6 - I entered the whole command of ssh without copying/pasting it from anywhere: `ssh cs15lsp23cj<shift>2ieng6.ucsd.edu` and then pressed <enter>. 
-Since I had created a ssh key for it, I didn't have to type in my password. It directly logged in. Moreover, I had to use <shift>2 for `@` character.
+Since I had created a ssh key for it, I didn't have to type in my password. It directly logged in. Moreover, I had to use `<shift>2` for `@` character.
   
   ![login](login.jpg)
   
