@@ -27,7 +27,9 @@
 ![Image](testle.jpg)
 
 * ListExamples.java
-```import java.util.ArrayList;
+
+```
+import java.util.ArrayList;
 import java.util.List;
 
 interface StringChecker { boolean checkString(String s); }
@@ -89,7 +91,8 @@ class ListExamples {
   }
 
 
-}```
+}
+```
 
 3. **The command I ran to trigger the bug** - `bash grade.sh https://github.com/shjucsd/lab3.git`
 4. **Description to fix the bug** - I added a `set +e` command after the `cd grading-area` command in the grade.sh file. This command would keep the bash script running even after an error is produced. This means that even though the `java` command when run on TestListExamples.java produces an error, the program still goes to next line of the `if` clause and execute the `cat error2.txt` command which results in the desired output in the terminal.
