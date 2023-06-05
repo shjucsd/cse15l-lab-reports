@@ -17,20 +17,18 @@
 **Description of the bug** - The bug was that due to `set -e` command at the top of the grade.sh file. It was preventing the text from error2.txt in the file beiing printed in the terminal. Since the `java` command induces a failure, the script never executes the `cat errors2.txt` command in the if statement leading to it not printing out. However, after adding `set +e` it turns off the `set -e` setting and continues with the script and thus prints the failure which was caused by the incorrect implementation of ListExamples.java
 
 * **Setup information**:
+
 1. **File and directory structure needed** - The directory is list-examples-grader which contains the bash script - grade.sh and TestListExamples.java. The argument provided in the command line along with the `bash grade.sh` command is the GitHub repository for student's submission which contains the ListExamples.java. Then these three files are copied into a new directory - grading-area for running the tests on ListExamples.java. 
 2. **Contents of each file before fixing the bug**:
 * grade.sh:
 ![Image](gsh1.jpg)
 ![Image](gsh2.jpg)
-
 * TestListExamples.java
 ![Image](testle.jpg)
-
 * ListExamples.java
 ![Image](le1.jpg)
 ![Image](le2.jpg)
 ![Image](le3.jpg)
-
 3. **The command I ran to trigger the bug** - `bash grade.sh https://github.com/shjucsd/lab3.git`
 4. **Description to fix the bug** - I added a `set +e` command after the `cd grading-area` command in the grade.sh file. This command would keep the bash script running even after an error is produced. This means that even though the `java` command when run on TestListExamples.java produces an error, the program still goes to next line of the `if` clause and execute the `cat error2.txt` command which results in the desired output in the terminal.
 
